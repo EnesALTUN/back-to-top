@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html{ scroll-behavior: smooth; }
+.main{ min-height: 200vh; }
+.back-to-top { width: 40px; height: 40px; position: fixed; right: 2rem; bottom: -3rem; color: #fff; background: #4cb1cf; border-radius: 50%; transition: all .4s; opacity: 0; }
+.back-to-top:hover { cursor: pointer; }
+.topActive { opacity: 1; bottom: 2rem; }
